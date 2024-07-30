@@ -34,7 +34,6 @@ function App() {
     const endTime = performance.now();
     setFibJSValue({time: endTime - startTime, result});
   }
-  
 
   useEffect(()=>{
     fibASC(value);
